@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Whitewater Adventures</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="app/app.css" rel="stylesheet" />
+    <link href="ext-modules/apFramework/apFramework.css" rel="stylesheet" />
+    <link href="ext-modules/apMenu/apMenu.css" rel="stylesheet" />
+
+    <script src="Scripts/jquery-2.1.3.min.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+
+    <script src="ext-modules/apMenu/apMenuModule.js"></script>
+    <script src="ext-modules/apMenu/apMenuController.js"></script>
+    <script src="ext-modules/apMenu/apMenuDirective.js"></script>
+    <script src="ext-modules/apMenu/apMenuItemDirective.js"></script>
+
+    <script src="ext-modules/apDashboard/apDashboardModule.js"></script>
+
+
+    <script src="ext-modules/apFramework/apFrameworkModule.js"></script>
+    <script src="ext-modules/apFramework/apFrameworkController.js"></script>
+    <script src="ext-modules/apFramework/apFrameworkDirective.js"></script>
+
+    <script src="app/appModule.js"></script>
+    <script src="app/appConfig.js"></script>
+
+</head>
+<body class="container-fluid">
+
+    <ap-framework title="Lucy Labblue"
+                  subtitle="Administrative Application"
+                  icon-file="images/profile.jpg">
+
+        <ap-menu>
+            <ap-menu-item label="Dashboard" icon="fa-dashboard" route="dashboard"></ap-menu-item>
+            <ap-menu-item label="Locations" icon="fa-location-arrow" route="locations"></ap-menu-item>
+            <ap-menu-item label="Inventory" icon="fa-archive" route="inventory"></ap-menu-item>
+        </ap-menu>
+
+
+    </ap-framework>
+
+</body>
+</html>

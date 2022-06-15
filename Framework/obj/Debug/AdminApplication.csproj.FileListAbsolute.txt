@@ -1,0 +1,7 @@
+C:\Users\hanto\source\repos\Framework2\Framework\bin\Framework.dll.config
+C:\Users\hanto\source\repos\Framework2\Framework\bin\Framework.dll
+C:\Users\hanto\source\repos\Framework2\Framework\bin\Framework.pdb
+C:\Users\hanto\source\repos\Framework2\Framework\obj\Debug\AdminApplication.csproj.CoreCompileInputs.cache
+C:\Users\hanto\source\repos\Framework2\Framework\obj\Debug\Framework.dll
+C:\Users\hanto\source\repos\Framework2\Framework\obj\Debug\Framework.pdb
+C:\Users\hanto\source\repos\Framework2\Framework\obj\Debug\AdminApplication.csprojAssemblyReference.cache
